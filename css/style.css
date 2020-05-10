@@ -55,6 +55,12 @@ header {
 
 .desktop-nav a {
     color: #fff;
+    transition: .6s;
+}
+
+.desktop-nav a:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 40px;
 }
 
 header .search_box {
